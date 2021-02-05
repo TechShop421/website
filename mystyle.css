@@ -1,0 +1,34 @@
+html {
+	color: white;
+	background-color: rgb(38, 38, 38);
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.banner {
+	background-color: rgb(220,220,220);
+	background-image: url('img/starwars-bg-001.jpg');
+	background-size: 100%;
+	background-position: center;
+	height: 120px;
+}
+
+.search-container {
+	display: grid;
+	grid-template-columns: auto 60px;
+	padding: 90px 2px 2px 2px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+}
+
+.grid-item {
+	background-color: rgba(200, 200, 200, 0.6);
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	padding: 10px 10px 10px 10px;
+}
